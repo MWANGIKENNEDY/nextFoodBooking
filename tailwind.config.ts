@@ -9,10 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+        'my-banner': "url('/offerBg.png')",
+        'menu-one': "url('/temporary/m1.png')",
+        'menu-two': "url('/temporary/m2.png')",
+        'menu-three': "url('/temporary/m3.png')",
+       }
     },
   },
   plugins: [],
