@@ -21,15 +21,18 @@ const MobileMenu = () => {
 
       {open && (
         <div className="absolute top-20 w-full h-[calc(100vh-80px)] z-20 bg-white text-orange-400 left-0 flex flex-col items-center justify-center gap-4 text-2xl">
-          <Link href="/" onClick={() => setOpen((open) => !open)}>
-            Home Page
-          </Link>
-          <Link href="/house" onClick={() => setOpen((open) => !open)}>
-            Menu
-          </Link>
-          <Link href="/recommended" onClick={() => setOpen((open) => !open)}>
-            Contact
-          </Link>
+        <Link onClick={() => setOpen((open) => !open)} href="/" className=" dark:text-white">
+              Homepage
+            </Link>
+            <Link onClick={() => setOpen((open) => !open)} href="/menu" className=" dark:text-white">
+              Menu
+            </Link>
+            <Link onClick={() => setOpen((open) => !open)} href="/orders" className=" dark:text-white">
+              orders
+            </Link>
+            <Link onClick={() => setOpen((open) => !open)} href="/cart" className=" dark:text-white">
+              Cart (3)
+            </Link>
         </div>
       )}
     </div>

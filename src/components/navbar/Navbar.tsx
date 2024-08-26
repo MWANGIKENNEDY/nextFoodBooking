@@ -33,9 +33,7 @@ const Navbar = () => {
             <Link href="/menu" className=" dark:text-white">
               Menu
             </Link>
-            <Link href="/contact" className=" dark:text-white">
-              Contact
-            </Link>
+           
           </div>
 
 
