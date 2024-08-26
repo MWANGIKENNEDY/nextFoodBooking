@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className=" bg-green-500 container mx-auto px-4 md:px-8 xl:px-16 min-h-[80vh] xl:min-h-[70vh] flex flex-col xl:flex-row   xl:items-center z-10   ">
+    <div className="  container mx-auto px-4 md:px-8 xl:px-16 min-h-[80vh] xl:min-h-[70vh] flex flex-col xl:flex-row   xl:items-center z-10   ">
 
 
 <div className="  w-full  flex flex-col items-center justify-center lg:items-start gap-10 flex-1 md:py-20  ">

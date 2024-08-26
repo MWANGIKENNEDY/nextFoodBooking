@@ -7,7 +7,7 @@ import { PhoneIcon } from "@heroicons/react/24/solid";
 const Navbar = () => {
   return (
     <>
-      <nav className=" h-20  sticky top-0 left-0 right-0 text-base  shadow-xl  dark:bg-slate-600 uppercase z-50 ">
+      <nav className=" h-20  sticky top-0 left-0 right-0 text-base  shadow-xl  dark:bg-slate-600 uppercase z-50 bg-white ">
         {/* MOBILE SCREEN */}
 
      
@@ -23,7 +23,7 @@ const Navbar = () => {
 
         {/* Large Screens */}
 
-        <div className="container mx-auto h-full hidden xl:flex  justify-between items-center px-4 md:px-8 xl:px-16  2xl:px-64    ">
+        <div className="container mx-auto h-full hidden xl:flex  justify-between items-center px-4 md:px-8 xl:px-16     ">
           {/* left section */}
           
           <div className=" flex gap-4">

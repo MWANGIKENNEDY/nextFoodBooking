@@ -84,7 +84,7 @@ const FeatureProducts = () => {
         {featuredProducts.map((featuredProduct, index) => (
           <div
             key={index}
-            className=" bg-black shadow-2xl flex flex-col p-2 snap-start justify-center w-[40%] md:w-[30%] xl:w-[24%]   flex-shrink-0 hover:bg-red-50    text-red-500 transition-all duration-500"
+            className="  shadow-2xl flex flex-col p-2 snap-start justify-center w-[40%] md:w-[30%] xl:w-[24%]   flex-shrink-0 hover:bg-red-50    text-red-500 transition-all duration-500"
           >
             {/* image section */}
 
