@@ -15,7 +15,7 @@ const Price = ({ id, price, options }: Props) => {
   const additionalPrice = (options && options[btnIndex]?.additionalPrice) || 0;
   const calcPrice = (price + additionalPrice) * amount;
   return (
-    <div className=" flex flex-col gap-6 lg:gap-8">
+    <div className=" flex flex-col gap-6 lg:gap-8   mx-auto lg:mx-0 w-full max-w-lg  ">
       <span className=" text-lg font-extrabold lg:text-xl">
         $ {calcPrice.toFixed(2)}
       </span>

@@ -33,19 +33,19 @@ const menus = [
 
 const MenuPage = () => {
   return (
-    <div className=" grid grid-rows-[1fr,1fr,1fr] lg:grid-cols-3 lg:grid-rows-1 lg:place-items-center min-h-[calc(100vh-6.75rem)] w-full px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 mx-auto ">
+    <div className=" container mt-16 lg:mt-24 grid grid-rows-[1fr,1fr,1fr] lg:grid-cols-3 lg:grid-rows-1 lg:place-items-center min-h-[calc(100vh-6.75rem)] w-full  mx-auto ">
       {menus.map((menu, index) => (
         <Link
           href={`/menu/${menu.slug}`}
           key={index}
-          className={`bg-cover lg:h-[50%] w-full ${menu.bg} text-${menu.text} flex flex-col gap-2 p-4`}
+          className={`bg-cover lg:h-[50%] w-full ${menu.bg} text-${menu.text} flex flex-col gap-6 p-4`}
         >
           <h3 className=" uppercase font-bold text-3xl">{menu.title}</h3>
 
-          <small className="w-1/3">{menu.desc}</small>
+          <small className="w-1/3 text-lg ">{menu.desc}</small>
 
           <button
-            className={`bg-${menu.btnbg} text-${menu.btntext} px-2 py-1 rounded w-max`}
+            className={`bg-${menu.btnbg} text-${menu.btntext} px-6 py-3 text-sm rounded w-max`}
           >
             Explore Now
           </button>

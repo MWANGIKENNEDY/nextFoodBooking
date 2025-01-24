@@ -78,13 +78,13 @@ const featuredProducts = [
 
 const FeatureProducts = () => {
   return (
-    <div className="  container mx-auto w-screen px-4   ">
+    <div className="  container mx-auto w-screen mt-16 lg:mt-24   ">
 
       <div className=" w-full  flex flex-nowrap overflow-x-scroll  scroll-smooth snap-x snap-mandatory gap-4 ">
         {featuredProducts.map((featuredProduct, index) => (
           <div
             key={index}
-            className="  shadow-2xl flex flex-col p-2 snap-start justify-center w-[40%] md:w-[30%] xl:w-[24%]   flex-shrink-0 hover:bg-red-50    text-red-500 transition-all duration-500"
+            className=" bg-gray-200  flex flex-col p-2 snap-start justify-center w-[40%] md:w-[30%] xl:w-[24%]   flex-shrink-0 hover:bg-red-50    text-red-500 transition-all duration-500"
           >
             {/* image section */}
 

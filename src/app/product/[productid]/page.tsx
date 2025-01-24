@@ -5,10 +5,10 @@ import React from "react";
 
 const SingleProduct = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 mx-auto max-w-screen-2xl min-h-[calc(100vh-6.75rem)] grid grid-rows-[1fr,1fr] py-2 md:grid-rows-1 md:grid-cols-2 lg:gap-10">
+    <div className="container bg-red-100/50 py-10 mx-auto mt-16 lg:mt-24   grid grid-cols-1 lg:grid-cols-2 gap-6 ">
       {/* image section */}
 
-      { singleProduct.img && <div className="relative">
+      { singleProduct.img && <div className="relative h-[400px]">
         <Image
           src={singleProduct.img}
           alt=""
@@ -19,12 +19,12 @@ const SingleProduct = () => {
 
       {/* text section */}
 
-      <div className=" flex flex-col text-red-500 gap-4   justify-center md:gap-5">
-        <h2 className=" font-extrabold uppercase text-red-700 text-xl lg:text-3xl">
+      <div className=" flex flex-col text-red-500 gap-4   justify-center md:gap-5 ">
+        <h2 className=" font-extrabold uppercase text-red-700 text-3xl lg:text-3xl text-center lg:text-left">
           {singleProduct.title}
         </h2>
 
-        <p className=" text-sm text-red-400 lg:text-base">
+        <p className=" text-lg text-red-400 max-w-lg mx-auto lg:mx-0 text-center lg:text-left ">
         {singleProduct.desc}
         </p>
 

@@ -13,7 +13,14 @@ const config: Config = {
         'menu-one': "url('/temporary/m1.png')",
         'menu-two': "url('/temporary/m2.png')",
         'menu-three': "url('/temporary/m3.png')",
-       }
+       },
+       container: {
+        center: true,
+        padding: {
+          DEFAULT: "16px"
+      
+        },
+      },
     },
   },
   plugins: [],
